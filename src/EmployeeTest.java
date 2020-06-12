@@ -2,6 +2,7 @@
 public class EmployeeTest {
 
 	public static void main(String[] args) {
+		System.out.println("This is EMP-TEST");
 		Scanner scan = new Scanner(System.in);
 		Employee [] emp = new Employee[4];
 		emp[0] = new SalariedEmployee("Keval",1217305,6000);
